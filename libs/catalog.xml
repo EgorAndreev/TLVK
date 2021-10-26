@@ -1,0 +1,1559 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+  <versions>
+    <swc version="1.2" />
+    <flex version="4.6.0" build="23201" minimumSupportedVersion="3.0.0" />
+  </versions>
+  <features>
+    <feature-script-deps />
+    <feature-files />
+  </features>
+  <libraries>
+    <library path="library.swf">
+      <script name="alternativa/engine3d/core/Object3D" mod="1630078572574" signatureChecksum="2287673452" >
+        <def id="alternativa.engine3d.core:Object3D" /> 
+        <dep id="alternativa.engine3d.core:RayIntersectionData" type="s" /> 
+        <dep id="alternativa.engine3d.core:Object3DContainer" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="alternativa.engine3d.core:Vertex" type="s" /> 
+        <dep id="flash.geom:ColorTransform" type="s" /> 
+        <dep id="alternativa.engine3d.core:Camera3D" type="s" /> 
+        <dep id="alternativa.engine3d.core:Face" type="s" /> 
+        <dep id="alternativa.engine3d.core:Shadow" type="s" /> 
+        <dep id="alternativa.engine3d.core:VG" type="s" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flash.geom:Matrix3D" type="s" /> 
+        <dep id="alternativa.engine3d.core:Vertex" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flash.geom:ColorTransform" type="e" /> 
+        <dep id="flash.utils:getQualifiedClassName" type="e" /> 
+        <dep id="TypeError" type="e" /> 
+        <dep id="alternativa.engine3d.core:MouseEvent3D" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="alternativa.engine3d.core:Shadow" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.geom:Matrix3D" type="e" /> 
+        <dep id="flash.events:IEventDispatcher" type="i" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="alternativa.engine3d:alternativa3d" type="n" /> 
+      </script>
+      <script name="alternativa/engine3d/core/Light3D" mod="1630178836906" signatureChecksum="3372814938" >
+        <def id="alternativa.engine3d.core:Light3D" /> 
+        <dep id="alternativa.engine3d.core:Object3DContainer" type="s" /> 
+        <dep id="alternativa.engine3d.core:Vertex" type="s" /> 
+        <dep id="alternativa.engine3d.core:Camera3D" type="s" /> 
+        <dep id="alternativa.engine3d.core:Object3D" type="i" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="alternativa.engine3d:alternativa3d" type="n" /> 
+      </script>
+      <script name="mx/core/IRepeaterClient" mod="1630078595848" signatureChecksum="4267343100" >
+        <def id="mx.core:IRepeaterClient" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/engine3d/core/ShadowMap" mod="1630078584798" signatureChecksum="3508414855" >
+        <def id="alternativa.engine3d.core:ShadowMap" /> 
+        <dep id="alternativa.engine3d.objects:BSP" type="s" /> 
+        <dep id="alternativa.engine3d.core:Vertex" type="s" /> 
+        <dep id="alternativa.engine3d.materials:TextureMaterial" type="s" /> 
+        <dep id="alternativa.engine3d.objects:Mesh" type="s" /> 
+        <dep id="flash.display3D:VertexBuffer3D" type="s" /> 
+        <dep id="alternativa.engine3d.core:Camera3D" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flash.display3D.textures:Texture" type="s" /> 
+        <dep id="flash.display3D:Program3D" type="s" /> 
+        <dep id="alternativa.engine3d.core:Object3D" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.display:BitmapData" type="s" /> 
+        <dep id="flash.display3D:Context3D" type="s" /> 
+        <dep id="alternativa.engine3d.objects:Sprite3D" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="alternativa.engine3d.lights:DirectionalLight" type="s" /> 
+        <dep id="flash.display3D:IndexBuffer3D" type="s" /> 
+        <dep id="alternativa.engine3d.objects:BSP" type="e" /> 
+        <dep id="alternativa.engine3d.core:Vertex" type="e" /> 
+        <dep id="alternativa.engine3d.materials:Material" type="e" /> 
+        <dep id="alternativa.engine3d.materials:TextureMaterial" type="e" /> 
+        <dep id="alternativa.engine3d.objects:Mesh" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="alternativa.engine3d.core:Face" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="flash.display3D:Context3DVertexBufferFormat" type="e" /> 
+        <dep id="flash.display3D:Context3DTextureFormat" type="e" /> 
+        <dep id="flash.display:BitmapData" type="e" /> 
+        <dep id="alternativa.engine3d.objects:Sprite3D" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="alternativa.engine3d.lights:DirectionalLight" type="e" /> 
+        <dep id="flash.display3D:Context3DProgramType" type="e" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="alternativa.engine3d:alternativa3d" type="n" /> 
+      </script>
+      <script name="alternativa/proplib/types/PropLOD" mod="1630078594736" signatureChecksum="499796866" >
+        <def id="alternativa.proplib.types:PropLOD" /> 
+        <dep id="alternativa.proplib.objects:PropObject" type="s" /> 
+        <dep id="trace" type="e" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/physics/constraints/Constraint" mod="1630078588086" signatureChecksum="364730152" >
+        <def id="alternativa.physics.constraints:Constraint" /> 
+        <dep id="alternativa.physics:PhysicsScene" type="s" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="org1/osflash/signals/ISlot" mod="1630078594398" signatureChecksum="1009422361" >
+        <def id="org1.osflash.signals:ISlot" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="org1/osflash/signals/Slot" mod="1630078594797" signatureChecksum="3367428947" >
+        <def id="org1.osflash.signals:Slot" /> 
+        <dep id="org1.osflash.signals:ISignal" type="s" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="ArgumentError" type="e" /> 
+        <dep id="org1.osflash.signals:ISlot" type="i" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/physics/collision/types/AABB" mod="1630078574935" signatureChecksum="1064221083" >
+        <def id="alternativa.physics.collision.types:AABB" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/engine3d/core/DepthRenderer" mod="1630078584122" signatureChecksum="1133712381" >
+        <def id="alternativa.engine3d.core:DepthRenderer" /> 
+        <dep id="flash.display3D.textures:Texture" type="s" /> 
+        <dep id="alternativa.engine3d.objects:BSP" type="s" /> 
+        <dep id="flash.display3D:Program3D" type="s" /> 
+        <dep id="alternativa.engine3d.objects:Mesh" type="s" /> 
+        <dep id="alternativa.engine3d.core:Object3D" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.display3D:VertexBuffer3D" type="s" /> 
+        <dep id="alternativa.engine3d.core:Camera3D" type="s" /> 
+        <dep id="flash.display3D:Context3D" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flash.display3D:IndexBuffer3D" type="s" /> 
+        <dep id="alternativa.engine3d.objects:BSP" type="e" /> 
+        <dep id="alternativa.engine3d.objects:Mesh" type="e" /> 
+        <dep id="alternativa.engine3d.materials:Material" type="e" /> 
+        <dep id="flash.display3D:Context3DTextureFormat" type="e" /> 
+        <dep id="flash.display3D:Context3DProgramType" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="flash.display3D:Context3DVertexBufferFormat" type="e" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="alternativa.engine3d:alternativa3d" type="n" /> 
+      </script>
+      <script name="alternativa/proplib/types/PropGroup" mod="1630078590714" signatureChecksum="2530638431" >
+        <def id="alternativa.proplib.types:PropGroup" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="alternativa.proplib.types:PropData" type="s" /> 
+        <dep id="trace" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="alternativa.proplib.types:PropData" type="e" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/utils/textureutils/TextureByteData" mod="1630078590383" signatureChecksum="2116832623" >
+        <def id="alternativa.utils.textureutils:TextureByteData" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/utils/textureutils/TextureByteDataMap" mod="1630078592390" signatureChecksum="3742257587" >
+        <def id="alternativa.utils.textureutils:TextureByteDataMap" /> 
+        <dep id="alternativa.utils.textureutils:TextureByteData" type="s" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="mx/core/IFlexDisplayObject" mod="1630078590030" signatureChecksum="583207665" >
+        <def id="mx.core:IFlexDisplayObject" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="flash.display:Stage" type="s" /> 
+        <dep id="flash.display:LoaderInfo" type="s" /> 
+        <dep id="flash.geom:Transform" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flash.accessibility:AccessibilityProperties" type="s" /> 
+        <dep id="flash.events:IEventDispatcher" type="i" /> 
+        <dep id="flash.display:IBitmapDrawable" type="i" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="mx/core/ILayoutDirectionElement" mod="1630078589715" signatureChecksum="559366607" >
+        <def id="mx.core:ILayoutDirectionElement" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/engine3d/controllers/SimpleObjectController" mod="1630078581241" signatureChecksum="1133278238" >
+        <def id="alternativa.engine3d.controllers:SimpleObjectController" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="alternativa.engine3d.core:Object3D" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.display:InteractiveObject" type="s" /> 
+        <dep id="flash.events:KeyboardEvent" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flash.geom:Matrix3D" type="s" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="flash.utils:getTimer" type="e" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="flash.ui:Keyboard" type="e" /> 
+        <dep id="alternativa.engine3d.core:Camera3D" type="e" /> 
+        <dep id="flash.events:KeyboardEvent" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="flash.geom:Matrix3D" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/proplib/objects/PropObjectType" mod="1630078594738" signatureChecksum="2808952278" >
+        <def id="alternativa.proplib.objects:PropObjectType" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/physics/BodyListItem" mod="1630078575320" signatureChecksum="2710067608" >
+        <def id="alternativa.physics:BodyListItem" /> 
+        <dep id="alternativa.physics:Body" type="s" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/physics/collision/ICollider" mod="1630078585600" signatureChecksum="604724448" >
+        <def id="alternativa.physics.collision:ICollider" /> 
+        <dep id="alternativa.physics:Contact" type="s" /> 
+        <dep id="alternativa.physics.collision:CollisionPrimitive" type="s" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/engine3d/objects/Sprite3D" mod="1630078578920" signatureChecksum="1167579762" >
+        <def id="alternativa.engine3d.objects:Sprite3D" /> 
+        <dep id="alternativa.engine3d.core:RayIntersectionData" type="s" /> 
+        <dep id="alternativa.engine3d.core:Wrapper" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="alternativa.engine3d.core:Vertex" type="s" /> 
+        <dep id="alternativa.engine3d.materials:TextureMaterial" type="s" /> 
+        <dep id="alternativa.engine3d.materials:Material" type="s" /> 
+        <dep id="alternativa.engine3d.core:Camera3D" type="s" /> 
+        <dep id="flash.display:BitmapData" type="s" /> 
+        <dep id="alternativa.engine3d.core:Face" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="alternativa.engine3d.core:VG" type="s" /> 
+        <dep id="alternativa.engine3d.core:RayIntersectionData" type="e" /> 
+        <dep id="alternativa.engine3d.core:Wrapper" type="e" /> 
+        <dep id="alternativa.engine3d.core:Vertex" type="e" /> 
+        <dep id="alternativa.engine3d.materials:TextureMaterial" type="e" /> 
+        <dep id="alternativa.engine3d.core:Face" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="alternativa.engine3d.core:Debug" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="alternativa.engine3d.core:VG" type="e" /> 
+        <dep id="alternativa.engine3d.core:Object3D" type="i" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="alternativa.engine3d:alternativa3d" type="n" /> 
+      </script>
+      <script name="alternativa/physics/BodyList" mod="1630078588099" signatureChecksum="2639483514" >
+        <def id="alternativa.physics:BodyList" /> 
+        <dep id="alternativa.physics:BodyListItem" type="s" /> 
+        <dep id="alternativa.physics:Body" type="s" /> 
+        <dep id="alternativa.physics:BodyListItem" type="e" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/physics/collision/CollisionKdTree2D" mod="1630078594505" signatureChecksum="2112718628" >
+        <def id="alternativa.physics.collision:CollisionKdTree2D" /> 
+        <dep id="alternativa.physics.collision:CollisionKdNode" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="alternativa.physics.collision:CollisionKdTree" type="s" /> 
+        <dep id="alternativa.physics.collision.types:AABB" type="s" /> 
+        <dep id="alternativa.physics.collision:CollisionKdNode" type="e" /> 
+        <dep id="alternativa.physics.collision.types:AABB" type="e" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="mx/core/FlexBitmap" mod="1630078589036" signatureChecksum="1256021466" >
+        <def id="mx.core:FlexBitmap" /> 
+        <dep id="flash.display:BitmapData" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="mx.utils:NameUtil" type="e" /> 
+        <dep id="flash.display:Bitmap" type="i" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="mx.core:mx_internal" type="n" /> 
+      </script>
+      <script name="mx/core/mx_internal" mod="1630078594364" signatureChecksum="642982261" >
+        <def id="mx.core:mx_internal" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/engine3d/materials/Material" mod="1630078577970" signatureChecksum="2696693084" >
+        <def id="alternativa.engine3d.materials:Material" /> 
+        <dep id="alternativa.engine3d.core:Object3D" type="s" /> 
+        <dep id="flash.display3D:VertexBuffer3D" type="s" /> 
+        <dep id="alternativa.engine3d.core:Camera3D" type="s" /> 
+        <dep id="alternativa.engine3d.core:Face" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.display3D:IndexBuffer3D" type="s" /> 
+        <dep id="alternativa.engine3d.materials:AGALMiniAssembler" type="e" /> 
+        <dep id="flash.utils:getQualifiedClassName" type="e" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="alternativa.engine3d:alternativa3d" type="n" /> 
+      </script>
+      <script name="alternativa/engine3d/materials/TextureMaterial" mod="1630078586276" signatureChecksum="2392850676" >
+        <def id="alternativa.engine3d.materials:TextureMaterial" /> 
+        <dep id="alternativa.engine3d.core:Vertex" type="s" /> 
+        <dep id="flash.display3D:VertexBuffer3D" type="s" /> 
+        <dep id="alternativa.engine3d.core:Camera3D" type="s" /> 
+        <dep id="flash.geom:Matrix" type="s" /> 
+        <dep id="alternativa.engine3d.core:Face" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flash.filters:ConvolutionFilter" type="s" /> 
+        <dep id="alternativa.engine3d.core:Wrapper" type="s" /> 
+        <dep id="flash.display3D.textures:Texture" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="flash.display3D:Program3D" type="s" /> 
+        <dep id="alternativa.engine3d.core:Object3D" type="s" /> 
+        <dep id="flash.display:BitmapData" type="s" /> 
+        <dep id="flash.display3D:Context3D" type="s" /> 
+        <dep id="flash.display3D:IndexBuffer3D" type="s" /> 
+        <dep id="flash.display3D:Context3DCompareMode" type="e" /> 
+        <dep id="flash.geom:Matrix" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="flash.display3D:Context3DVertexBufferFormat" type="e" /> 
+        <dep id="flash.filters:ConvolutionFilter" type="e" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="alternativa.engine3d.objects:SkyBox" type="e" /> 
+        <dep id="flash.display3D:Context3DTextureFormat" type="e" /> 
+        <dep id="flash.display:BitmapData" type="e" /> 
+        <dep id="alternativa.engine3d.objects:Sprite3D" type="e" /> 
+        <dep id="flash.display3D:Context3DProgramType" type="e" /> 
+        <dep id="alternativa.engine3d.objects:Decal" type="e" /> 
+        <dep id="alternativa.engine3d.materials:Material" type="i" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="alternativa.engine3d:alternativa3d" type="n" /> 
+      </script>
+      <script name="alternativa/physics/collision/CollisionKdTree" mod="1630078586468" signatureChecksum="721395885" >
+        <def id="alternativa.physics.collision:CollisionKdTree" /> 
+        <dep id="alternativa.physics.collision:CollisionKdNode" type="s" /> 
+        <dep id="alternativa.physics.collision:CollisionPrimitive" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="alternativa.physics.collision.types:AABB" type="s" /> 
+        <dep id="trace" type="e" /> 
+        <dep id="alternativa.physics.collision:CollisionKdNode" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="alternativa.physics.collision:CollisionKdTree2D" type="e" /> 
+        <dep id="alternativa.physics.collision.types:AABB" type="e" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/physics/collision/colliders/BoxCollider" mod="1630078586042" signatureChecksum="141973377" >
+        <def id="alternativa.physics.collision.colliders:BoxCollider" /> 
+        <dep id="alternativa.physics:Contact" type="s" /> 
+        <dep id="alternativa.physics.collision:CollisionPrimitive" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="alternativa.math:Vector3" type="s" /> 
+        <dep id="alternativa.physics.collision:ICollider" type="i" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/engine3d/core/Clipping" mod="1630078578748" signatureChecksum="73023359" >
+        <def id="alternativa.engine3d.core:Clipping" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/engine3d/objects/Occluder" mod="1630078581501" signatureChecksum="2370702957" >
+        <def id="alternativa.engine3d.objects:Occluder" /> 
+        <dep id="alternativa.engine3d.core:Wrapper" type="s" /> 
+        <dep id="alternativa.engine3d.core:Vertex" type="s" /> 
+        <dep id="alternativa.engine3d.objects:Mesh" type="s" /> 
+        <dep id="alternativa.engine3d.core:Camera3D" type="s" /> 
+        <dep id="alternativa.engine3d.core:Face" type="s" /> 
+        <dep id="flash.display:Sprite" type="s" /> 
+        <dep id="alternativa.engine3d.core:Wrapper" type="e" /> 
+        <dep id="trace" type="e" /> 
+        <dep id="alternativa.engine3d.core:Vertex" type="e" /> 
+        <dep id="alternativa.engine3d.objects:Mesh" type="e" /> 
+        <dep id="alternativa.engine3d.core:Face" type="e" /> 
+        <dep id="ArgumentError" type="e" /> 
+        <dep id="alternativa.engine3d.core:Debug" type="e" /> 
+        <dep id="alternativa.engine3d.core:Object3D" type="i" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="alternativa.engine3d:alternativa3d" type="n" /> 
+      </script>
+      <script name="alternativa/utils/XMLUtils" mod="1630078592385" signatureChecksum="3671023928" >
+        <def id="alternativa.utils:XMLUtils" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="XMLList" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/engine3d/core/Camera3D" mod="1630221833153" signatureChecksum="1029490933" >
+        <def id="alternativa.engine3d.core:Camera3D" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="alternativa.engine3d.core:Vertex" type="s" /> 
+        <dep id="alternativa.engine3d.materials:Material" type="s" /> 
+        <dep id="alternativa.engine3d.core:View" type="s" /> 
+        <dep id="flash.display3D:VertexBuffer3D" type="s" /> 
+        <dep id="alternativa.engine3d.core:ShadowAtlas" type="s" /> 
+        <dep id="alternativa.engine3d.core:Face" type="s" /> 
+        <dep id="alternativa.engine3d.core:DepthRenderer" type="s" /> 
+        <dep id="alternativa.engine3d.core:Shadow" type="s" /> 
+        <dep id="alternativa.engine3d.core:Light3D" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flash.text:TextField" type="s" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="alternativa.engine3d.core:Wrapper" type="s" /> 
+        <dep id="flash.display3D.textures:Texture" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.display:Bitmap" type="s" /> 
+        <dep id="flash.display3D:Context3D" type="s" /> 
+        <dep id="alternativa.engine3d.core:ShadowMap" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flash.display:Sprite" type="s" /> 
+        <dep id="flash.display3D:IndexBuffer3D" type="s" /> 
+        <dep id="flash.utils:getDefinitionByName" type="e" /> 
+        <dep id="flash.display3D:Context3DTriangleFace" type="e" /> 
+        <dep id="alternativa.engine3d.core:Vertex" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="alternativa.engine3d.materials:Material" type="e" /> 
+        <dep id="flash.display3D:VertexBuffer3D" type="e" /> 
+        <dep id="alternativa.engine3d.core:ShadowAtlas" type="e" /> 
+        <dep id="flash.display3D:Context3DBlendFactor" type="e" /> 
+        <dep id="alternativa.engine3d.core:DepthRenderer" type="e" /> 
+        <dep id="alternativa.engine3d.core:Shadow" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.text:TextFieldAutoSize" type="e" /> 
+        <dep id="flash.system:System" type="e" /> 
+        <dep id="alternativa.engine3d.core:Light3D" type="e" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.text:TextField" type="e" /> 
+        <dep id="flash.utils:getTimer" type="e" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flash.display:BitmapData" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="flash.display3D:Context3DClearMask" type="e" /> 
+        <dep id="alternativa.engine3d.core:Object3DContainer" type="e" /> 
+        <dep id="flash.display3D:Context3DStencilAction" type="e" /> 
+        <dep id="alternativa.engine3d.core:View" type="e" /> 
+        <dep id="flash.utils:getQualifiedClassName" type="e" /> 
+        <dep id="flash.display:StageAlign" type="e" /> 
+        <dep id="flash.utils:getQualifiedSuperclassName" type="e" /> 
+        <dep id="flash.display3D:Context3DCompareMode" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="alternativa.engine3d.core:Face" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="alternativa.engine3d.core:Wrapper" type="e" /> 
+        <dep id="flash.display:Bitmap" type="e" /> 
+        <dep id="flash.display:Sprite" type="e" /> 
+        <dep id="flash.display3D:IndexBuffer3D" type="e" /> 
+        <dep id="flash.text:TextFormat" type="e" /> 
+        <dep id="alternativa.engine3d.core:Object3D" type="i" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="alternativa.engine3d:alternativa3d" type="n" /> 
+      </script>
+      <script name="alternativa/physics/collision/colliders/BoxBoxCollider" mod="1630078586315" signatureChecksum="4079802740" >
+        <def id="alternativa.physics.collision.colliders:BoxBoxCollider" /> 
+        <dep id="alternativa.physics:Contact" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="alternativa.physics.collision:CollisionPrimitive" type="s" /> 
+        <dep id="alternativa.math:Vector3" type="s" /> 
+        <dep id="alternativa.physics.collision.primitives:CollisionBox" type="s" /> 
+        <dep id="alternativa.physics:ContactPoint" type="s" /> 
+        <dep id="alternativa.math:Matrix4" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="alternativa.math:Vector3" type="e" /> 
+        <dep id="alternativa.physics.collision.primitives:CollisionBox" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="alternativa.physics:ContactPoint" type="e" /> 
+        <dep id="alternativa.physics.collision.colliders:BoxCollider" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="org1/osflash/signals/ISignal" mod="1630078588516" signatureChecksum="378301723" >
+        <def id="org1.osflash.signals:ISignal" /> 
+        <dep id="org1.osflash.signals:ISlot" type="s" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/engine3d/loaders/Parser3DS" mod="1630179026473" signatureChecksum="1273043334" >
+        <def id="alternativa.engine3d.loaders:Parser3DS" /> 
+        <dep id="alternativa.engine3d.core:Wrapper" type="s" /> 
+        <dep id="alternativa.engine3d.core:Vertex" type="s" /> 
+        <dep id="alternativa.engine3d.materials:Material" type="s" /> 
+        <dep id="alternativa.engine3d.materials:TextureMaterial" type="s" /> 
+        <dep id="alternativa.engine3d.objects:Mesh" type="s" /> 
+        <dep id="alternativa.engine3d.core:Object3D" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="alternativa.engine3d.materials:FillMaterial" type="s" /> 
+        <dep id="flash.geom:Matrix" type="s" /> 
+        <dep id="alternativa.engine3d.core:Face" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.utils:Endian" type="e" /> 
+        <dep id="alternativa.engine3d.core:Vertex" type="e" /> 
+        <dep id="alternativa.engine3d.materials:Material" type="e" /> 
+        <dep id="alternativa.engine3d.materials:TextureMaterial" type="e" /> 
+        <dep id="alternativa.engine3d.objects:Mesh" type="e" /> 
+        <dep id="alternativa.engine3d.materials:FillMaterial" type="e" /> 
+        <dep id="flash.geom:Matrix" type="e" /> 
+        <dep id="alternativa.engine3d.core:Face" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="alternativa.engine3d.core:Wrapper" type="e" /> 
+        <dep id="alternativa.engine3d.core:Object3D" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="alternativa.engine3d:alternativa3d" type="n" /> 
+      </script>
+      <script name="alternativa/proplib/objects/PropObject" mod="1630078590393" signatureChecksum="2056340845" >
+        <def id="alternativa.proplib.objects:PropObject" /> 
+        <dep id="alternativa.engine3d.core:Object3D" type="s" /> 
+        <dep id="trace" type="e" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/proplib/objects/PropSprite" mod="1630078590983" signatureChecksum="4112545637" >
+        <def id="alternativa.proplib.objects:PropSprite" /> 
+        <dep id="alternativa.utils.textureutils:TextureByteData" type="s" /> 
+        <dep id="alternativa.engine3d.objects:Sprite3D" type="s" /> 
+        <dep id="trace" type="e" /> 
+        <dep id="alternativa.proplib.objects:PropObjectType" type="e" /> 
+        <dep id="alternativa.engine3d.objects:Sprite3D" type="e" /> 
+        <dep id="alternativa.proplib.objects:PropObject" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/engine3d/core/Object3DContainer" mod="1630078579866" signatureChecksum="2292007450" >
+        <def id="alternativa.engine3d.core:Object3DContainer" /> 
+        <dep id="alternativa.engine3d.core:RayIntersectionData" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="alternativa.engine3d.core:Camera3D" type="s" /> 
+        <dep id="alternativa.engine3d.core:Face" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="alternativa.engine3d.core:VG" type="s" /> 
+        <dep id="alternativa.engine3d.core:Light3D" type="s" /> 
+        <dep id="RangeError" type="e" /> 
+        <dep id="TypeError" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="ArgumentError" type="e" /> 
+        <dep id="alternativa.engine3d.core:Debug" type="e" /> 
+        <dep id="alternativa.engine3d.core:Light3D" type="e" /> 
+        <dep id="alternativa.engine3d.core:Object3D" type="i" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="alternativa.engine3d:alternativa3d" type="n" /> 
+      </script>
+      <script name="alternativa/engine3d/objects/Mesh" mod="1630237324678" signatureChecksum="3281686673" >
+        <def id="alternativa.engine3d.objects:Mesh" /> 
+        <dep id="alternativa.engine3d.core:RayIntersectionData" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="alternativa.engine3d.core:Vertex" type="s" /> 
+        <dep id="alternativa.engine3d.materials:Material" type="s" /> 
+        <dep id="flash.display3D:VertexBuffer3D" type="s" /> 
+        <dep id="alternativa.engine3d.core:Camera3D" type="s" /> 
+        <dep id="alternativa.engine3d.core:Face" type="s" /> 
+        <dep id="alternativa.engine3d.core:VG" type="s" /> 
+        <dep id="alternativa.engine3d.core:Wrapper" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.display3D:Context3D" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flash.display3D:IndexBuffer3D" type="s" /> 
+        <dep id="alternativa.engine3d.core:RayIntersectionData" type="e" /> 
+        <dep id="alternativa.engine3d.core:Vertex" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="alternativa.engine3d.materials:Material" type="e" /> 
+        <dep id="alternativa.engine3d.core:Face" type="e" /> 
+        <dep id="alternativa.engine3d.core:Debug" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="alternativa.engine3d.core:VG" type="e" /> 
+        <dep id="alternativa.engine3d.core:Wrapper" type="e" /> 
+        <dep id="trace" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="RangeError" type="e" /> 
+        <dep id="TypeError" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="ArgumentError" type="e" /> 
+        <dep id="alternativa.engine3d.core:Object3D" type="i" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="alternativa.engine3d:alternativa3d" type="n" /> 
+      </script>
+      <script name="alternativa/engine3d/primitives/Sphere" mod="1630078591334" signatureChecksum="2275712860" >
+        <def id="alternativa.engine3d.primitives:Sphere" /> 
+        <dep id="alternativa.engine3d.core:Vertex" type="s" /> 
+        <dep id="alternativa.engine3d.materials:Material" type="s" /> 
+        <dep id="alternativa.engine3d.core:Object3D" type="s" /> 
+        <dep id="alternativa.engine3d.core:Face" type="s" /> 
+        <dep id="alternativa.engine3d.core:Wrapper" type="e" /> 
+        <dep id="alternativa.engine3d.core:Vertex" type="e" /> 
+        <dep id="alternativa.engine3d.core:Face" type="e" /> 
+        <dep id="ArgumentError" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="alternativa.engine3d.objects:Mesh" type="i" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="alternativa.engine3d:alternativa3d" type="n" /> 
+      </script>
+      <script name="alternativa/physics/collision/CollisionPrimitive" mod="1630078571255" signatureChecksum="2780248514" >
+        <def id="alternativa.physics.collision:CollisionPrimitive" /> 
+        <dep id="alternativa.physics:Body" type="s" /> 
+        <dep id="alternativa.math:Vector3" type="s" /> 
+        <dep id="alternativa.physics:PhysicsMaterial" type="s" /> 
+        <dep id="alternativa.physics.collision.types:AABB" type="s" /> 
+        <dep id="alternativa.physics.collision:ICollisionFilter" type="s" /> 
+        <dep id="alternativa.math:Matrix4" type="s" /> 
+        <dep id="alternativa.physics.collision.types:AABB" type="e" /> 
+        <dep id="ArgumentError" type="e" /> 
+        <dep id="alternativa.math:Matrix4" type="e" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/physics/collision/primitives/CollisionRect" mod="1630078591067" signatureChecksum="3770472191" >
+        <def id="alternativa.physics.collision.primitives:CollisionRect" /> 
+        <dep id="alternativa.math:Vector3" type="s" /> 
+        <dep id="alternativa.physics:PhysicsMaterial" type="s" /> 
+        <dep id="alternativa.physics.collision.types:AABB" type="s" /> 
+        <dep id="alternativa.math:Matrix4" type="s" /> 
+        <dep id="alternativa.math:Vector3" type="e" /> 
+        <dep id="alternativa.physics.collision:CollisionPrimitive" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/engine3d/objects/SkyBox" mod="1630178868336" signatureChecksum="514104709" >
+        <def id="alternativa.engine3d.objects:SkyBox" /> 
+        <dep id="alternativa.engine3d.core:Wrapper" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="alternativa.engine3d.core:Vertex" type="s" /> 
+        <dep id="alternativa.engine3d.core:Object3D" type="s" /> 
+        <dep id="alternativa.engine3d.materials:Material" type="s" /> 
+        <dep id="alternativa.engine3d.core:Camera3D" type="s" /> 
+        <dep id="flash.geom:Matrix" type="s" /> 
+        <dep id="alternativa.engine3d.core:Face" type="s" /> 
+        <dep id="alternativa.engine3d.core:VG" type="s" /> 
+        <dep id="alternativa.engine3d.core:Wrapper" type="e" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="alternativa.engine3d.core:Vertex" type="e" /> 
+        <dep id="alternativa.engine3d.core:Sorting" type="e" /> 
+        <dep id="alternativa.engine3d.core:Face" type="e" /> 
+        <dep id="alternativa.engine3d.core:Clipping" type="e" /> 
+        <dep id="alternativa.engine3d.core:Debug" type="e" /> 
+        <dep id="alternativa.engine3d.objects:Mesh" type="i" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="alternativa.engine3d:alternativa3d" type="n" /> 
+      </script>
+      <script name="alternativa/engine3d/alternativa3d" mod="1630078566383" signatureChecksum="1735535232" >
+        <def id="alternativa.engine3d:alternativa3d" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/math/Matrix3" mod="1630078573432" signatureChecksum="1102280585" >
+        <def id="alternativa.math:Matrix3" /> 
+        <dep id="alternativa.math:Vector3" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/math/Matrix4" mod="1630078573679" signatureChecksum="2335444179" >
+        <def id="alternativa.math:Matrix4" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="alternativa.math:Vector3" type="s" /> 
+        <dep id="alternativa.math:Matrix3" type="s" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/physics/collision/colliders/BoxRectCollider" mod="1630078586041" signatureChecksum="924250292" >
+        <def id="alternativa.physics.collision.colliders:BoxRectCollider" /> 
+        <dep id="alternativa.physics:Contact" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="alternativa.physics.collision:CollisionPrimitive" type="s" /> 
+        <dep id="alternativa.math:Vector3" type="s" /> 
+        <dep id="alternativa.physics.collision.primitives:CollisionBox" type="s" /> 
+        <dep id="alternativa.physics.collision.primitives:CollisionRect" type="s" /> 
+        <dep id="alternativa.physics:ContactPoint" type="s" /> 
+        <dep id="alternativa.math:Matrix4" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="alternativa.math:Vector3" type="e" /> 
+        <dep id="alternativa.physics.collision.primitives:CollisionBox" type="e" /> 
+        <dep id="alternativa.physics.collision.primitives:CollisionRect" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="alternativa.physics.collision.colliders:BoxCollider" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/utils/KeyMapper" mod="1630078584828" signatureChecksum="256608521" >
+        <def id="alternativa.utils:KeyMapper" /> 
+        <dep id="flash.events:IEventDispatcher" type="s" /> 
+        <dep id="flash.events:KeyboardEvent" type="s" /> 
+        <dep id="flash.events:KeyboardEvent" type="e" /> 
+        <dep id="ArgumentError" type="e" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/engine3d/containers/ConflictContainer" mod="1630078580702" signatureChecksum="2845977652" >
+        <def id="alternativa.engine3d.containers:ConflictContainer" /> 
+        <dep id="alternativa.engine3d.core:Wrapper" type="s" /> 
+        <dep id="alternativa.engine3d.core:Vertex" type="s" /> 
+        <dep id="alternativa.engine3d.core:Object3D" type="s" /> 
+        <dep id="alternativa.engine3d.core:Camera3D" type="s" /> 
+        <dep id="alternativa.engine3d.core:Face" type="s" /> 
+        <dep id="alternativa.engine3d.core:VG" type="s" /> 
+        <dep id="alternativa.engine3d.core:Debug" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="alternativa.engine3d.core:Object3DContainer" type="i" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="alternativa.engine3d:alternativa3d" type="n" /> 
+      </script>
+      <script name="alternativa/engine3d/core/ShadowAtlas" mod="1630078584445" signatureChecksum="3444703727" >
+        <def id="alternativa.engine3d.core:ShadowAtlas" /> 
+        <dep id="flash.display3D.textures:Texture" type="s" /> 
+        <dep id="flash.display3D:Program3D" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.display3D:VertexBuffer3D" type="s" /> 
+        <dep id="alternativa.engine3d.core:Camera3D" type="s" /> 
+        <dep id="flash.display3D:Context3D" type="s" /> 
+        <dep id="alternativa.engine3d.core:Shadow" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.display3D:IndexBuffer3D" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="alternativa.engine3d.materials:Material" type="e" /> 
+        <dep id="flash.display3D:Context3DTextureFormat" type="e" /> 
+        <dep id="alternativa.engine3d.core:Shadow" type="e" /> 
+        <dep id="flash.display3D:Context3DProgramType" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.display3D:Context3DVertexBufferFormat" type="e" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="alternativa.engine3d:alternativa3d" type="n" /> 
+      </script>
+      <script name="alternativa/physics/PhysicsScene" mod="1630078575224" signatureChecksum="953318616" >
+        <def id="alternativa.physics:PhysicsScene" /> 
+        <dep id="alternativa.physics:Contact" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="alternativa.physics:BodyListItem" type="s" /> 
+        <dep id="alternativa.physics:Body" type="s" /> 
+        <dep id="alternativa.math:Vector3" type="s" /> 
+        <dep id="alternativa.physics.constraints:Constraint" type="s" /> 
+        <dep id="alternativa.physics.collision:CollisionDetector" type="s" /> 
+        <dep id="alternativa.math:Matrix3" type="s" /> 
+        <dep id="alternativa.physics:ContactPoint" type="s" /> 
+        <dep id="alternativa.physics:BodyList" type="s" /> 
+        <dep id="alternativa.physics:Contact" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="alternativa.math:Vector3" type="e" /> 
+        <dep id="alternativa.physics.constraints:Constraint" type="e" /> 
+        <dep id="alternativa.physics:BodyList" type="e" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="_1896bd532b50213706009a4481d8446d0201ac7377d232f37bac812b86e30da4_flash_display_Sprite" mod="1630478248549" signatureChecksum="1748793273" >
+        <def id="_1896bd532b50213706009a4481d8446d0201ac7377d232f37bac812b86e30da4_flash_display_Sprite" /> 
+        <dep id="flash.system:Security" type="e" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="org1/osflash/signals/Signal" mod="1630078588963" signatureChecksum="262385780" >
+        <def id="org1.osflash.signals:Signal" /> 
+        <dep id="org1.osflash.signals:ISlot" type="s" /> 
+        <dep id="org1.osflash.signals:SlotList" type="s" /> 
+        <dep id="flash.errors:IllegalOperationError" type="e" /> 
+        <dep id="flash.utils:getQualifiedClassName" type="e" /> 
+        <dep id="ArgumentError" type="e" /> 
+        <dep id="org1.osflash.signals:SlotList" type="e" /> 
+        <dep id="org1.osflash.signals:Slot" type="e" /> 
+        <dep id="org1.osflash.signals:ISignal" type="i" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/physics/ContactPoint" mod="1630078583533" signatureChecksum="3289839546" >
+        <def id="alternativa.physics:ContactPoint" /> 
+        <dep id="alternativa.physics.collision:CollisionPrimitive" type="s" /> 
+        <dep id="alternativa.math:Vector3" type="s" /> 
+        <dep id="alternativa.math:Vector3" type="e" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/engine3d/core/EllipsoidCollider" mod="1630078591318" signatureChecksum="1193520713" >
+        <def id="alternativa.engine3d.core:EllipsoidCollider" /> 
+        <dep id="alternativa.engine3d.core:Wrapper" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="alternativa.engine3d.core:Vertex" type="s" /> 
+        <dep id="alternativa.engine3d.core:Object3D" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="alternativa.engine3d.core:Face" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="alternativa.engine3d.core:Object3D" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="alternativa.engine3d.core:Face" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="alternativa.engine3d:alternativa3d" type="n" /> 
+      </script>
+      <script name="alternativa/physics/Contact" mod="1630078571145" signatureChecksum="2664657294" >
+        <def id="alternativa.physics:Contact" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="alternativa.physics:Body" type="s" /> 
+        <dep id="alternativa.math:Vector3" type="s" /> 
+        <dep id="alternativa.physics:ContactPoint" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="alternativa.math:Vector3" type="e" /> 
+        <dep id="alternativa.physics:ContactPoint" type="e" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/math/Vector3" mod="1630078568209" signatureChecksum="3933783529" >
+        <def id="alternativa.math:Vector3" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="alternativa.math:Matrix3" type="s" /> 
+        <dep id="alternativa.math:Matrix4" type="s" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/engine3d/core/MipMapping" mod="1630078587719" signatureChecksum="3060088363" >
+        <def id="alternativa.engine3d.core:MipMapping" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="mx/core/IFlexAsset" mod="1630078589316" signatureChecksum="3016954274" >
+        <def id="mx.core:IFlexAsset" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="mx/core/ByteArrayAsset" mod="1630078589675" signatureChecksum="2482323045" >
+        <def id="mx.core:ByteArrayAsset" /> 
+        <dep id="mx.core:IFlexAsset" type="i" /> 
+        <dep id="flash.utils:ByteArray" type="i" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="mx.core:mx_internal" type="n" /> 
+      </script>
+      <script name="alternativa/physics/Body" mod="1630078567785" signatureChecksum="411711985" >
+        <def id="alternativa.physics:Body" /> 
+        <dep id="alternativa.physics:Contact" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="alternativa.physics.collision:CollisionPrimitive" type="s" /> 
+        <dep id="alternativa.math:Vector3" type="s" /> 
+        <dep id="alternativa.physics.collision:IBodyCollisionFilter" type="s" /> 
+        <dep id="alternativa.math:Quaternion" type="s" /> 
+        <dep id="alternativa.physics.collision.types:AABB" type="s" /> 
+        <dep id="alternativa.physics:PhysicsScene" type="s" /> 
+        <dep id="alternativa.physics:BodyState" type="s" /> 
+        <dep id="alternativa.math:Matrix3" type="s" /> 
+        <dep id="alternativa.math:Matrix4" type="s" /> 
+        <dep id="alternativa.physics:Contact" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="alternativa.physics.collision:CollisionPrimitive" type="e" /> 
+        <dep id="alternativa.math:Vector3" type="e" /> 
+        <dep id="alternativa.physics.collision.types:AABB" type="e" /> 
+        <dep id="alternativa.physics:BodyState" type="e" /> 
+        <dep id="ArgumentError" type="e" /> 
+        <dep id="alternativa.math:Matrix3" type="e" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/physics/collision/ICollisionFilter" mod="1630078583202" signatureChecksum="1936339450" >
+        <def id="alternativa.physics.collision:ICollisionFilter" /> 
+        <dep id="alternativa.physics.collision:CollisionPrimitive" type="s" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="org1/osflash/signals/SlotList" mod="1630078594360" signatureChecksum="2271383356" >
+        <def id="org1.osflash.signals:SlotList" /> 
+        <dep id="org1.osflash.signals:ISlot" type="s" /> 
+        <dep id="ArgumentError" type="e" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/engine3d/materials/AGALMiniAssembler" mod="1630078593624" signatureChecksum="2244243280" >
+        <def id="alternativa.engine3d.materials:AGALMiniAssembler" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.utils:getTimer" type="e" /> 
+        <dep id="trace" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="flash.utils:Endian" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/physics/collision/colliders/BoxTriangleCollider" mod="1630078586566" signatureChecksum="4245349363" >
+        <def id="alternativa.physics.collision.colliders:BoxTriangleCollider" /> 
+        <dep id="alternativa.physics:Contact" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="alternativa.physics.collision.primitives:CollisionTriangle" type="s" /> 
+        <dep id="alternativa.physics.collision:CollisionPrimitive" type="s" /> 
+        <dep id="alternativa.math:Vector3" type="s" /> 
+        <dep id="alternativa.physics.collision.primitives:CollisionBox" type="s" /> 
+        <dep id="alternativa.physics:ContactPoint" type="s" /> 
+        <dep id="alternativa.math:Matrix4" type="s" /> 
+        <dep id="alternativa.physics.collision.primitives:CollisionTriangle" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="alternativa.math:Vector3" type="e" /> 
+        <dep id="alternativa.physics.collision.primitives:CollisionBox" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="alternativa.physics.collision.colliders:BoxCollider" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/engine3d/objects/Decal" mod="1630078589729" signatureChecksum="1158992049" >
+        <def id="alternativa.engine3d.objects:Decal" /> 
+        <dep id="alternativa.engine3d.core:Vertex" type="s" /> 
+        <dep id="alternativa.engine3d.core:Object3D" type="s" /> 
+        <dep id="alternativa.engine3d.core:Camera3D" type="s" /> 
+        <dep id="alternativa.engine3d.core:Face" type="s" /> 
+        <dep id="alternativa.engine3d.core:VG" type="s" /> 
+        <dep id="alternativa.engine3d.core:Debug" type="e" /> 
+        <dep id="alternativa.engine3d.objects:Mesh" type="i" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="alternativa.engine3d:alternativa3d" type="n" /> 
+      </script>
+      <script name="alternativa/engine3d/materials/FillMaterial" mod="1630078591335" signatureChecksum="3268609358" >
+        <def id="alternativa.engine3d.materials:FillMaterial" /> 
+        <dep id="alternativa.engine3d.materials:Material" type="s" /> 
+        <dep id="alternativa.engine3d.core:Object3D" type="s" /> 
+        <dep id="flash.display3D:VertexBuffer3D" type="s" /> 
+        <dep id="alternativa.engine3d.core:Camera3D" type="s" /> 
+        <dep id="alternativa.engine3d.core:Face" type="s" /> 
+        <dep id="flash.display3D:IndexBuffer3D" type="s" /> 
+        <dep id="flash.display:BitmapData" type="e" /> 
+        <dep id="alternativa.engine3d.materials:TextureMaterial" type="i" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="alternativa.engine3d:alternativa3d" type="n" /> 
+      </script>
+      <script name="alternativa/physics/PhysicsUtils" mod="1630078575345" signatureChecksum="2985714456" >
+        <def id="alternativa.physics:PhysicsUtils" /> 
+        <dep id="alternativa.math:Vector3" type="s" /> 
+        <dep id="alternativa.math:Matrix3" type="s" /> 
+        <dep id="ArgumentError" type="e" /> 
+        <dep id="alternativa.math:Matrix3" type="e" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/physics/collision/colliders/BoxSphereCollider" mod="1630078585981" signatureChecksum="4104970367" >
+        <def id="alternativa.physics.collision.colliders:BoxSphereCollider" /> 
+        <dep id="alternativa.physics:Contact" type="s" /> 
+        <dep id="alternativa.physics.collision:CollisionPrimitive" type="s" /> 
+        <dep id="alternativa.math:Vector3" type="s" /> 
+        <dep id="alternativa.physics.collision.primitives:CollisionBox" type="s" /> 
+        <dep id="alternativa.physics.collision.primitives:CollisionSphere" type="s" /> 
+        <dep id="alternativa.physics:ContactPoint" type="s" /> 
+        <dep id="alternativa.math:Matrix4" type="s" /> 
+        <dep id="alternativa.math:Vector3" type="e" /> 
+        <dep id="alternativa.physics.collision.primitives:CollisionBox" type="e" /> 
+        <dep id="alternativa.physics.collision.primitives:CollisionSphere" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="alternativa.physics.collision:ICollider" type="i" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/utils/ByteArrayMap" mod="1630078583453" signatureChecksum="3784723242" >
+        <def id="alternativa.utils:ByteArrayMap" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/engine3d/core/Canvas" mod="1630078576342" signatureChecksum="823338830" >
+        <def id="alternativa.engine3d.core:Canvas" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/proplib/PropLibrary" mod="1630078582822" signatureChecksum="2179067088" >
+        <def id="alternativa.proplib:PropLibrary" /> 
+        <dep id="alternativa.proplib.objects:PropObject" type="s" /> 
+        <dep id="alternativa.utils:ByteArrayMap" type="s" /> 
+        <dep id="alternativa.utils.textureutils:TextureByteData" type="s" /> 
+        <dep id="alternativa.proplib.objects:PropMesh" type="s" /> 
+        <dep id="alternativa.proplib.types:PropData" type="s" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="alternativa.proplib.types:PropState" type="s" /> 
+        <dep id="XMLList" type="s" /> 
+        <dep id="alternativa.proplib.objects:PropSprite" type="s" /> 
+        <dep id="alternativa.proplib.types:PropGroup" type="s" /> 
+        <dep id="alternativa.utils.textureutils:TextureByteDataMap" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="alternativa.utils.textureutils:TextureByteData" type="e" /> 
+        <dep id="alternativa.proplib.objects:PropMesh" type="e" /> 
+        <dep id="alternativa.proplib.types:PropData" type="e" /> 
+        <dep id="XML" type="e" /> 
+        <dep id="alternativa.utils:XMLUtils" type="e" /> 
+        <dep id="alternativa.proplib.types:PropState" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="alternativa.proplib.objects:PropSprite" type="e" /> 
+        <dep id="alternativa.proplib.types:PropGroup" type="e" /> 
+        <dep id="ArgumentError" type="e" /> 
+        <dep id="alternativa.utils.textureutils:TextureByteDataMap" type="e" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/engine3d/primitives/Plane" mod="1630078579715" signatureChecksum="4100632018" >
+        <def id="alternativa.engine3d.primitives:Plane" /> 
+        <dep id="alternativa.engine3d.core:Vertex" type="s" /> 
+        <dep id="alternativa.engine3d.materials:Material" type="s" /> 
+        <dep id="alternativa.engine3d.core:Object3D" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="alternativa.engine3d.core:Face" type="s" /> 
+        <dep id="alternativa.engine3d.core:Wrapper" type="e" /> 
+        <dep id="alternativa.engine3d.core:Vertex" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="alternativa.engine3d.core:Face" type="e" /> 
+        <dep id="ArgumentError" type="e" /> 
+        <dep id="alternativa.engine3d.objects:Mesh" type="i" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="alternativa.engine3d:alternativa3d" type="n" /> 
+      </script>
+      <script name="alternativa/physics/collision/types/RayHit" mod="1630078570807" signatureChecksum="723414029" >
+        <def id="alternativa.physics.collision.types:RayHit" /> 
+        <dep id="alternativa.physics.collision:CollisionPrimitive" type="s" /> 
+        <dep id="alternativa.math:Vector3" type="s" /> 
+        <dep id="alternativa.math:Vector3" type="e" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/physics/PhysicsMaterial" mod="1630078575637" signatureChecksum="2822589443" >
+        <def id="alternativa.physics:PhysicsMaterial" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/engine3d/core/Face" mod="1630078584435" signatureChecksum="606158026" >
+        <def id="alternativa.engine3d.core:Face" /> 
+        <dep id="alternativa.engine3d.core:Wrapper" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="alternativa.engine3d.core:Vertex" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="alternativa.engine3d.materials:Material" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="alternativa.engine3d.core:VG" type="s" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="alternativa.engine3d.core:Vertex" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="alternativa.engine3d:alternativa3d" type="n" /> 
+      </script>
+      <script name="alternativa/utils/textureutils/ITextureConstructorListener" mod="1630078579401" signatureChecksum="3652138317" >
+        <def id="alternativa.utils.textureutils:ITextureConstructorListener" /> 
+        <dep id="alternativa.utils.textureutils:TextureConstructor" type="s" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/engine3d/core/Vertex" mod="1630178891196" signatureChecksum="2694839829" >
+        <def id="alternativa.engine3d.core:Vertex" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="alternativa.engine3d:alternativa3d" type="n" /> 
+      </script>
+      <script name="alternativa/physics/collision/primitives/CollisionTriangle" mod="1630078590410" signatureChecksum="3071934070" >
+        <def id="alternativa.physics.collision.primitives:CollisionTriangle" /> 
+        <dep id="alternativa.math:Vector3" type="s" /> 
+        <dep id="alternativa.physics:PhysicsMaterial" type="s" /> 
+        <dep id="alternativa.physics.collision.types:AABB" type="s" /> 
+        <dep id="alternativa.math:Matrix4" type="s" /> 
+        <dep id="alternativa.math:Vector3" type="e" /> 
+        <dep id="alternativa.physics.collision:CollisionPrimitive" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/utils/textureutils/TextureConstructor" mod="1630078579673" signatureChecksum="4030827401" >
+        <def id="alternativa.utils.textureutils:TextureConstructor" /> 
+        <dep id="alternativa.utils.textureutils:ITextureConstructorListener" type="s" /> 
+        <dep id="flash.display:Loader" type="s" /> 
+        <dep id="alternativa.utils.textureutils:TextureByteData" type="s" /> 
+        <dep id="flash.display:BitmapData" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.display:Loader" type="e" /> 
+        <dep id="alternativa.utils:BitmapUtils" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="flash.display:Bitmap" type="e" /> 
+        <dep id="ArgumentError" type="e" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/engine3d/core/View" mod="1630179146587" signatureChecksum="619059267" >
+        <def id="alternativa.engine3d.core:View" /> 
+        <dep id="flash.ui:ContextMenu" type="s" /> 
+        <dep id="alternativa.engine3d.core:Camera3D" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="flash.events:KeyboardEvent" type="s" /> 
+        <dep id="flash.display:Stage3D" type="s" /> 
+        <dep id="flash.events:ContextMenuEvent" type="s" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="flash.ui:ContextMenuItem" type="s" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="alternativa.engine3d.core:Object3D" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.display:Bitmap" type="s" /> 
+        <dep id="flash.display:BitmapData" type="s" /> 
+        <dep id="alternativa.engine3d.core:MouseEvent3D" type="s" /> 
+        <dep id="flash.ui:Keyboard" type="e" /> 
+        <dep id="flash.ui:Mouse" type="e" /> 
+        <dep id="flash.events:ContextMenuEvent" type="e" /> 
+        <dep id="flash.display:Stage3D" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="flash.ui:ContextMenuItem" type="e" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.utils:setTimeout" type="e" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="flash.net:navigateToURL" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flash.display:BitmapData" type="e" /> 
+        <dep id="alternativa.engine3d.core:MouseEvent3D" type="e" /> 
+        <dep id="alternativa.engine3d.core:Object3DContainer" type="e" /> 
+        <dep id="flash.display:StageAlign" type="e" /> 
+        <dep id="flash.ui:ContextMenu" type="e" /> 
+        <dep id="flash.net:URLRequest" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="flash.events:KeyboardEvent" type="e" /> 
+        <dep id="flash.geom:Matrix" type="e" /> 
+        <dep id="alternativa:Alternativa3D" type="e" /> 
+        <dep id="alternativa.engine3d.core:Object3D" type="e" /> 
+        <dep id="flash.display3D:Context3DRenderMode" type="e" /> 
+        <dep id="flash.display:Bitmap" type="e" /> 
+        <dep id="alternativa.engine3d.core:Canvas" type="i" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="alternativa.engine3d:alternativa3d" type="n" /> 
+      </script>
+      <script name="alternativa/physics/collision/IBodyCollisionFilter" mod="1630078575014" signatureChecksum="1017526310" >
+        <def id="alternativa.physics.collision:IBodyCollisionFilter" /> 
+        <dep id="alternativa.physics:Body" type="s" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="TanksEngine" mod="1630478148648" signatureChecksum="3624280471" >
+        <def id="TanksEngine" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/physics/collision/primitives/CollisionBox" mod="1630078575878" signatureChecksum="806999605" >
+        <def id="alternativa.physics.collision.primitives:CollisionBox" /> 
+        <dep id="alternativa.math:Vector3" type="s" /> 
+        <dep id="alternativa.physics:PhysicsMaterial" type="s" /> 
+        <dep id="alternativa.physics.collision.types:AABB" type="s" /> 
+        <dep id="alternativa.math:Matrix4" type="s" /> 
+        <dep id="alternativa.math:Vector3" type="e" /> 
+        <dep id="alternativa.physics.collision:CollisionPrimitive" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/physics/collision/primitives/CollisionSphere" mod="1630078593956" signatureChecksum="2393692309" >
+        <def id="alternativa.physics.collision.primitives:CollisionSphere" /> 
+        <dep id="alternativa.math:Vector3" type="s" /> 
+        <dep id="alternativa.physics:PhysicsMaterial" type="s" /> 
+        <dep id="alternativa.physics.collision.types:AABB" type="s" /> 
+        <dep id="alternativa.math:Matrix4" type="s" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="alternativa.physics.collision:CollisionPrimitive" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/math/Quaternion" mod="1630078567427" signatureChecksum="842070393" >
+        <def id="alternativa.math:Quaternion" /> 
+        <dep id="alternativa.math:Vector3" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="alternativa.math:Matrix3" type="s" /> 
+        <dep id="alternativa.math:Matrix4" type="s" /> 
+        <dep id="alternativa.math:Vector3" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/engine3d/core/MouseEvent3D" mod="1630078584434" signatureChecksum="45804172" >
+        <def id="alternativa.engine3d.core:MouseEvent3D" /> 
+        <dep id="alternativa.engine3d.core:Object3D" type="s" /> 
+        <dep id="alternativa.engine3d.core:Camera3D" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="flash.events:Event" type="i" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="alternativa.engine3d:alternativa3d" type="n" /> 
+      </script>
+      <script name="alternativa/physics/collision/IRayCollisionFilter" mod="1630078570341" signatureChecksum="1418343714" >
+        <def id="alternativa.physics.collision:IRayCollisionFilter" /> 
+        <dep id="alternativa.physics:Body" type="s" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/physics/collision/CollisionKdNode" mod="1630078585594" signatureChecksum="4152466205" >
+        <def id="alternativa.physics.collision:CollisionKdNode" /> 
+        <dep id="alternativa.physics.collision:CollisionKdTree2D" type="s" /> 
+        <dep id="alternativa.physics.collision.types:AABB" type="s" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="mx/core/BitmapAsset" mod="1630078590396" signatureChecksum="3619624321" >
+        <def id="mx.core:BitmapAsset" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="flash.display:BitmapData" type="s" /> 
+        <dep id="flash.system:ApplicationDomain" type="s" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="mx.core:IAssetLayoutFeatures" type="s" /> 
+        <dep id="flash.system:ApplicationDomain" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="mx.core:IFlexAsset" type="i" /> 
+        <dep id="mx.core:IFlexDisplayObject" type="i" /> 
+        <dep id="mx.core:FlexBitmap" type="i" /> 
+        <dep id="mx.core:ILayoutDirectionElement" type="i" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="mx.core:mx_internal" type="n" /> 
+      </script>
+      <script name="alternativa/engine3d/core/RayIntersectionData" mod="1630078583530" signatureChecksum="2789367745" >
+        <def id="alternativa.engine3d.core:RayIntersectionData" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="alternativa.engine3d.core:Object3D" type="s" /> 
+        <dep id="alternativa.engine3d.core:Face" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/engine3d/core/Sorting" mod="1630078578035" signatureChecksum="1556298471" >
+        <def id="alternativa.engine3d.core:Sorting" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/engine3d/core/Shadow" mod="1630078574859" signatureChecksum="2702280940" >
+        <def id="alternativa.engine3d.core:Shadow" /> 
+        <dep id="alternativa.engine3d.core:Vertex" type="s" /> 
+        <dep id="alternativa.engine3d.objects:Mesh" type="s" /> 
+        <dep id="flash.display3D:VertexBuffer3D" type="s" /> 
+        <dep id="alternativa.engine3d.core:Camera3D" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.display3D.textures:Texture" type="s" /> 
+        <dep id="flash.display3D:Program3D" type="s" /> 
+        <dep id="alternativa.engine3d.core:Object3D" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.display3D:Context3D" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="alternativa.engine3d.lights:DirectionalLight" type="s" /> 
+        <dep id="flash.display3D:IndexBuffer3D" type="s" /> 
+        <dep id="alternativa.engine3d.core:Vertex" type="e" /> 
+        <dep id="alternativa.engine3d.materials:Material" type="e" /> 
+        <dep id="alternativa.engine3d.materials:TextureMaterial" type="e" /> 
+        <dep id="alternativa.engine3d.objects:Mesh" type="e" /> 
+        <dep id="flash.display3D:VertexBuffer3D" type="e" /> 
+        <dep id="alternativa.engine3d.core:ShadowAtlas" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="alternativa.engine3d.core:Debug" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.display3D:Context3DVertexBufferFormat" type="e" /> 
+        <dep id="alternativa.engine3d.core:Object3D" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="alternativa.engine3d.lights:DirectionalLight" type="e" /> 
+        <dep id="flash.display3D:Context3DProgramType" type="e" /> 
+        <dep id="flash.display3D:IndexBuffer3D" type="e" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="alternativa.engine3d:alternativa3d" type="n" /> 
+      </script>
+      <script name="alternativa/types/Long" mod="1630078577579" signatureChecksum="4288168421" >
+        <def id="alternativa.types:Long" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="mx/utils/NameUtil" mod="1630078594834" signatureChecksum="774147145" >
+        <def id="mx.utils:NameUtil" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="SecurityError" type="s" /> 
+        <dep id="flash.utils:getQualifiedClassName" type="e" /> 
+        <dep id="mx.core:IRepeaterClient" type="e" /> 
+        <dep id="SecurityError" type="e" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="mx.core:mx_internal" type="n" /> 
+      </script>
+      <script name="mx/core/IAssetLayoutFeatures" mod="1630078594809" signatureChecksum="979826888" >
+        <def id="mx.core:IAssetLayoutFeatures" /> 
+        <dep id="flash.geom:Matrix" type="s" /> 
+        <dep id="flash.geom:Matrix3D" type="s" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/utils/Task" mod="1630078565994" signatureChecksum="3110877713" >
+        <def id="alternativa.utils:Task" /> 
+        <dep id="alternativa.utils:TaskSequence" type="s" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/physics/collision/CollisionDetector" mod="1630078566050" signatureChecksum="4711789" >
+        <def id="alternativa.physics.collision:CollisionDetector" /> 
+        <dep id="alternativa.physics.collision.types:RayHit" type="s" /> 
+        <dep id="alternativa.physics:Contact" type="s" /> 
+        <dep id="alternativa.physics.collision:CollisionPrimitive" type="s" /> 
+        <dep id="alternativa.math:Vector3" type="s" /> 
+        <dep id="alternativa.physics.collision:IRayCollisionFilter" type="s" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/utils/TaskSequence" mod="1630078569469" signatureChecksum="1908101646" >
+        <def id="alternativa.utils:TaskSequence" /> 
+        <dep id="alternativa.utils:Task" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="alternativa.utils:Task" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.events:EventDispatcher" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/proplib/types/PropState" mod="1630078592434" signatureChecksum="877752113" >
+        <def id="alternativa.proplib.types:PropState" /> 
+        <dep id="alternativa.proplib.objects:PropObject" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="alternativa.proplib.types:PropLOD" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="alternativa.proplib.types:PropLOD" type="e" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/engine3d/lights/DirectionalLight" mod="1630179110382" signatureChecksum="99470543" >
+        <def id="alternativa.engine3d.lights:DirectionalLight" /> 
+        <dep id="alternativa.engine3d.core:Object3D" type="s" /> 
+        <dep id="alternativa.engine3d.core:Camera3D" type="s" /> 
+        <dep id="flash.display:Sprite" type="s" /> 
+        <dep id="alternativa.engine3d.core:Debug" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="alternativa.engine3d.core:Light3D" type="i" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="alternativa.engine3d:alternativa3d" type="n" /> 
+      </script>
+      <script name="alternativa/proplib/objects/PropMesh" mod="1630178868302" signatureChecksum="70164012" >
+        <def id="alternativa.proplib.objects:PropMesh" /> 
+        <dep id="alternativa.utils:ByteArrayMap" type="s" /> 
+        <dep id="alternativa.engine3d.materials:TextureMaterial" type="s" /> 
+        <dep id="alternativa.engine3d.objects:Mesh" type="s" /> 
+        <dep id="alternativa.engine3d.core:Object3D" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="alternativa.utils.textureutils:TextureByteData" type="s" /> 
+        <dep id="alternativa.engine3d.loaders:Parser3DS" type="s" /> 
+        <dep id="alternativa.engine3d.core:Face" type="s" /> 
+        <dep id="alternativa.utils.textureutils:TextureByteDataMap" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="alternativa.engine3d.objects:Occluder" type="s" /> 
+        <dep id="trace" type="e" /> 
+        <dep id="alternativa.engine3d.materials:TextureMaterial" type="e" /> 
+        <dep id="alternativa.engine3d.objects:Mesh" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="alternativa.utils.textureutils:TextureByteData" type="e" /> 
+        <dep id="alternativa.proplib.objects:PropObjectType" type="e" /> 
+        <dep id="alternativa.engine3d.loaders:Parser3DS" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="alternativa.utils.textureutils:TextureByteDataMap" type="e" /> 
+        <dep id="alternativa.engine3d.objects:Occluder" type="e" /> 
+        <dep id="alternativa.proplib.objects:PropObject" type="i" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="alternativa.engine3d:alternativa3d" type="n" /> 
+      </script>
+      <script name="alternativa/utils/TARAParser" mod="1630078583583" signatureChecksum="15086074" >
+        <def id="alternativa.utils:TARAParser" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/engine3d/objects/BSP" mod="1630078592499" signatureChecksum="2756926341" >
+        <def id="alternativa.engine3d.objects:BSP" /> 
+        <dep id="alternativa.engine3d.core:RayIntersectionData" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="alternativa.engine3d.core:Vertex" type="s" /> 
+        <dep id="alternativa.engine3d.materials:Material" type="s" /> 
+        <dep id="alternativa.engine3d.objects:Mesh" type="s" /> 
+        <dep id="flash.display3D:VertexBuffer3D" type="s" /> 
+        <dep id="alternativa.engine3d.core:Camera3D" type="s" /> 
+        <dep id="alternativa.engine3d.core:Face" type="s" /> 
+        <dep id="alternativa.engine3d.core:VG" type="s" /> 
+        <dep id="alternativa.engine3d.core:Wrapper" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.display3D:Context3D" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flash.display3D:IndexBuffer3D" type="s" /> 
+        <dep id="alternativa.engine3d.core:RayIntersectionData" type="e" /> 
+        <dep id="alternativa.engine3d.core:Wrapper" type="e" /> 
+        <dep id="alternativa.engine3d.core:Vertex" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="alternativa.engine3d.objects:Mesh" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="alternativa.engine3d.core:Face" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="alternativa.engine3d.core:Debug" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="alternativa.engine3d.core:VG" type="e" /> 
+        <dep id="alternativa.engine3d.core:Object3D" type="i" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="alternativa.engine3d:alternativa3d" type="n" /> 
+      </script>
+      <script name="alternativa/utils/BitmapUtils" mod="1630078590018" signatureChecksum="1412532329" >
+        <def id="alternativa.utils:BitmapUtils" /> 
+        <dep id="flash.display:BitmapData" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="flash.display:BitmapData" type="e" /> 
+        <dep id="flash.display:BitmapDataChannel" type="e" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/utils/StringUtils" mod="1630078581785" signatureChecksum="813903696" >
+        <def id="alternativa.utils:StringUtils" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/engine3d/primitives/Box" mod="1630078578892" signatureChecksum="1290977224" >
+        <def id="alternativa.engine3d.primitives:Box" /> 
+        <dep id="alternativa.engine3d.core:Vertex" type="s" /> 
+        <dep id="alternativa.engine3d.materials:Material" type="s" /> 
+        <dep id="alternativa.engine3d.core:Object3D" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="alternativa.engine3d.core:Face" type="s" /> 
+        <dep id="alternativa.engine3d.core:Wrapper" type="e" /> 
+        <dep id="alternativa.engine3d.core:Vertex" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="alternativa.engine3d.core:Face" type="e" /> 
+        <dep id="ArgumentError" type="e" /> 
+        <dep id="alternativa.engine3d.objects:Mesh" type="i" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="alternativa.engine3d:alternativa3d" type="n" /> 
+      </script>
+      <script name="alternativa/engine3d/core/Debug" mod="1630078587854" signatureChecksum="2947148529" >
+        <def id="alternativa.engine3d.core:Debug" /> 
+        <dep id="alternativa.engine3d.core:Wrapper" type="s" /> 
+        <dep id="alternativa.engine3d.core:Vertex" type="s" /> 
+        <dep id="alternativa.engine3d.core:Object3D" type="s" /> 
+        <dep id="alternativa.engine3d.core:Camera3D" type="s" /> 
+        <dep id="alternativa.engine3d.core:Face" type="s" /> 
+        <dep id="flash.display:Sprite" type="s" /> 
+        <dep id="alternativa.engine3d.core:Vertex" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="alternativa.engine3d:alternativa3d" type="n" /> 
+      </script>
+      <script name="alternativa/engine3d/containers/KDContainer" mod="1630178798855" signatureChecksum="1269667539" >
+        <def id="alternativa.engine3d.containers:KDContainer" /> 
+        <dep id="alternativa.engine3d.core:RayIntersectionData" type="s" /> 
+        <dep id="alternativa.engine3d.core:Object3DContainer" type="s" /> 
+        <dep id="alternativa.engine3d.core:Vertex" type="s" /> 
+        <dep id="alternativa.engine3d.objects:BSP" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="alternativa.engine3d.materials:TextureMaterial" type="s" /> 
+        <dep id="alternativa.engine3d.objects:Mesh" type="s" /> 
+        <dep id="alternativa.engine3d.materials:Material" type="s" /> 
+        <dep id="flash.display3D:VertexBuffer3D" type="s" /> 
+        <dep id="alternativa.engine3d.core:ShadowAtlas" type="s" /> 
+        <dep id="alternativa.engine3d.core:Camera3D" type="s" /> 
+        <dep id="alternativa.engine3d.core:Face" type="s" /> 
+        <dep id="alternativa.engine3d.core:Shadow" type="s" /> 
+        <dep id="alternativa.engine3d.core:VG" type="s" /> 
+        <dep id="alternativa.engine3d.core:Wrapper" type="s" /> 
+        <dep id="alternativa.engine3d.core:Object3D" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.display3D:Context3D" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="alternativa.engine3d.objects:Decal" type="s" /> 
+        <dep id="flash.geom:Matrix3D" type="s" /> 
+        <dep id="alternativa.engine3d.objects:Occluder" type="s" /> 
+        <dep id="flash.display3D:IndexBuffer3D" type="s" /> 
+        <dep id="alternativa.engine3d.core:Vertex" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="alternativa.engine3d.core:Object3DContainer" type="e" /> 
+        <dep id="alternativa.engine3d.objects:BSP" type="e" /> 
+        <dep id="alternativa.engine3d.materials:TextureMaterial" type="e" /> 
+        <dep id="alternativa.engine3d.objects:Mesh" type="e" /> 
+        <dep id="alternativa.engine3d.core:Face" type="e" /> 
+        <dep id="alternativa.engine3d.core:Debug" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="alternativa.engine3d.core:Wrapper" type="e" /> 
+        <dep id="trace" type="e" /> 
+        <dep id="alternativa.engine3d.core:Object3D" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="alternativa.engine3d.objects:Sprite3D" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="alternativa.engine3d.objects:Decal" type="e" /> 
+        <dep id="flash.geom:Matrix3D" type="e" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="alternativa.engine3d.containers:ConflictContainer" type="i" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="alternativa.engine3d:alternativa3d" type="n" /> 
+      </script>
+      <script name="alternativa/proplib/types/PropData" mod="1630078590339" signatureChecksum="3602014573" >
+        <def id="alternativa.proplib.types:PropData" /> 
+        <dep id="alternativa.proplib.types:PropState" type="s" /> 
+        <dep id="trace" type="e" /> 
+        <dep id="alternativa.proplib.types:PropState" type="e" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/Alternativa3D" mod="1630078589049" signatureChecksum="3895014712" >
+        <def id="alternativa:Alternativa3D" /> 
+        <dep id="flash.display:MovieClip" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/physics/BodyState" mod="1630078575309" signatureChecksum="2587321485" >
+        <def id="alternativa.physics:BodyState" /> 
+        <dep id="alternativa.math:Vector3" type="s" /> 
+        <dep id="alternativa.math:Quaternion" type="s" /> 
+        <dep id="alternativa.math:Vector3" type="e" /> 
+        <dep id="alternativa.math:Quaternion" type="e" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="alternativa/engine3d/core/VG" mod="1630078585029" signatureChecksum="2653204814" >
+        <def id="alternativa.engine3d.core:VG" /> 
+        <dep id="alternativa.engine3d.core:Wrapper" type="s" /> 
+        <dep id="alternativa.engine3d.core:Vertex" type="s" /> 
+        <dep id="alternativa.engine3d.core:Object3D" type="s" /> 
+        <dep id="alternativa.engine3d.core:Camera3D" type="s" /> 
+        <dep id="alternativa.engine3d.core:Face" type="s" /> 
+        <dep id="alternativa.engine3d.core:Vertex" type="e" /> 
+        <dep id="alternativa.engine3d.core:Face" type="e" /> 
+        <dep id="alternativa.engine3d.core:Debug" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="alternativa.engine3d:alternativa3d" type="n" /> 
+      </script>
+      <script name="alternativa/engine3d/core/Wrapper" mod="1630178681737" signatureChecksum="3716181064" >
+        <def id="alternativa.engine3d.core:Wrapper" /> 
+        <dep id="alternativa.engine3d.core:Vertex" type="s" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="alternativa.engine3d:alternativa3d" type="n" /> 
+      </script>
+      <script name="alternativa/proplib/PropLibRegistry" mod="1630078569960" signatureChecksum="3140307676" >
+        <def id="alternativa.proplib:PropLibRegistry" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="alternativa.proplib:PropLibrary" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="alternativa.proplib:PropLibrary" type="e" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <digests>
+        <digest type="SHA-256" signed="false" value="cf8bf2610b967b1ecf5145fcbaf6e8f8e455fb54f73af667907c16d98f2056d2"   />
+      </digests>
+    </library>
+  </libraries>
+  <files>
+  </files>
+</swc>
